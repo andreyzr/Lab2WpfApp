@@ -1,0 +1,51 @@
+﻿<Window x:Class="HW.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="740" Width="480">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <UniformGrid Grid.Row="1" Rows="6" Columns="4">
+            <Button Content="%" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741"/>
+            <Button Content="CE" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741"/>
+            <Button Content="C" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741"/>
+            <Button Content="=" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741"/>
+            <Button Content="1/x" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741"/>
+            <Button Content="x²" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741"/>
+            <Button Content="√x" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741"/>
+            <Button Content="÷" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741"/>
+            <Button Content="1" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="2" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="3" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="x" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741" />
+            <Button Content="4" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="5" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="6" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="-" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741" />
+            <Button Content="7" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="8" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="9" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="+" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741" />
+            <Button Content="+/-" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="0" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="," FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFFBEEC1" Foreground="#FF8D8741"/>
+            <Button Content="=" FontSize="36" BorderThickness="1" BorderBrush="Black" Background="#FFBC986A" Foreground="#FF8D8741" />
+        </UniformGrid>
+        <TextBox 
+            Text="1234,567" 
+            VerticalContentAlignment="Bottom" 
+            HorizontalContentAlignment="Right" 
+            Grid.Row="0" Margin="1" 
+            BorderThickness="1" 
+            Background="#FFA5CCE2" 
+            BorderBrush="Black" 
+            FontSize="72">
+        </TextBox>
+    </Grid>
+</Window>
