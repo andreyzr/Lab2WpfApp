@@ -7,6 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Button Content="Следующая" Grid.Row="0" Margin="10" Padding="10"/>
+            <Button Content="Предидущая" Grid.Row="1" Margin="10" Padding="10"/>
+            <Button Content="Закрыть" Grid.Row="2" Margin="10" Padding="10" VerticalAlignment="Bottom"/>
+        </Grid>
+        <GridSplitter Grid.Column="1" Width="3" HorizontalAlignment="Center"/>
+        <TextBox Grid.Column="2" Margin="10" BorderBrush="Aqua" BorderThickness="2" TextWrapping="Wrap" Padding="5" HorizontalContentAlignment="Stretch" VerticalScrollBarVisibility="Auto">
+            Windows Presentation Foundation (WPF) — аналог WinForms, система для построения клиентских приложений Windows с визуально привлекательными возможностями взаимодействия с пользователем, графическая (презентационная) подсистема в составе .NET Framework (начиная с версии 3.0), использующая язык XAML[1].
+        </TextBox>
     </Grid>
 </Window>
